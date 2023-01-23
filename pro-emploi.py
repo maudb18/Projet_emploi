@@ -21,6 +21,16 @@ df = pd.concat([df, split_df], axis=1)
 
 print(df.head())
 
+#print(df['salaire'].iloc[5])
+
+#df[['salaire_min', 'salaire_max']] = df.salaire.str.split(" - ", expand = True)
+# to be stripped
+
+
+#df['salaire_max'] = df[salaire_max'].strip("/ an")
+
+print(df.dtypes)
+
 #print(df.isna().sum())
 
 #print(df['Intitulé du poste'].iloc[1][0])
@@ -29,5 +39,6 @@ print(df.head())
 df['Intitulé'] = df['Intitulé du poste'].apply(df['Intitulé du poste'].iloc[1][0])
 print(df.head())
 '''
+
 
 
