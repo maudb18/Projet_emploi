@@ -24,7 +24,9 @@ print(df.head())
 #print(df['salaire'].iloc[5])
 
 #df[['salaire_min', 'salaire_max']] = df.salaire.str.split(" - ", expand = True)
+
 # to be stripped
+#please work this time
 
 
 #df['salaire_max'] = df[salaire_max'].strip("/ an")
